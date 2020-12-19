@@ -1,0 +1,135 @@
+body{
+  background-image: linear-gradient(to right,#8e9eab, #eef2f3);
+}
+
+
+
+
+
+.logo {
+    font-family: 'Sarina', cursive;
+    font-size: 40px;
+}
+
+.headpic {
+    margin : auto;
+    margin-top: 20px;
+    max-width: 95%;
+    height: auto;  
+    border: 2px solid #8e9eab;  
+    position: relative;
+    text-align: center;
+    color: rgb(39, 26, 26);
+    
+}
+
+.mySlides {display:none;}
+
+.centered {
+  font-size:5vw;
+  font-family: 'Faster One', cursive;
+  position: absolute;
+  top: 45%;
+  left: 5%;
+}
+
+.shpbtn{
+  position: absolute;
+  top: 70%;
+  left: 10%;
+     
+}
+
+.grid-container{
+  position: relative;
+  text-align: center;
+  color: rgb(3, 1, 1);
+  display: grid;
+  height: 250px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.grid-item{
+  margin: 10px;
+  width: auto;
+  height: auto;
+  border: 2px dashed rgba(100, 100, 100, 0.5);
+}
+
+.grid-item:hover{
+  transform: scale(1.05);
+  transition: transform 2s ease-in-out;
+}
+
+.mentxt {
+  font-size:3vw;
+  font-family: 'Sarina', cursive;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(70, 70, 70);
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+
+.womentxt {
+  font-size:3vw;
+  font-family: 'Sarina', cursive;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(70, 70, 70);
+  position: absolute;
+  top: 20%;
+  left: 37%;
+}
+.acctxt{
+  font-size:3vw;
+  font-family:  'Sarina', cursive;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(71, 71, 71);
+  position: absolute;
+  top: 20%;
+  left: 70%;
+}
+
+.elicol{
+  margin-top: 20px;
+}
+
+.elizoom:hover {
+  transform: scale(1.05);
+  transition: transform 2s ease-in-out;
+
+}
+
+.active{
+  color: white;
+  transform: scale(1.2) ;
+}
+
+.cart{
+  fill:darkslategray;
+}
+
+.cart:hover{
+  fill: darkseagreen;
+}
+
+.adminactive{
+  transform: scale(1.1) ;
+}
+
+.field_error{
+   color: red;
+   font-weight: bold;
+}
+
+.footerr {
+  position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
