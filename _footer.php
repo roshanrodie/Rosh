@@ -1,4 +1,6 @@
-<?php?>
+<?php
+    $currentPage = 'shop';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
