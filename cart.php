@@ -130,7 +130,7 @@ include("_navbar.php");
                   Subtotal
                 </div>
                 <div class="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                  148,827.53€
+                ₹0
                 </div>
               </div>
                 <div class="flex justify-between pt-4 border-b">
@@ -143,7 +143,7 @@ include("_navbar.php");
                     Coupon "90off"
                   </div>
                   <div class="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-green-700">
-                    -133,944.77€
+                  ₹0
                   </div>
                 </div>
                 <div class="flex justify-between pt-4 border-b">
@@ -151,7 +151,7 @@ include("_navbar.php");
                     New Subtotal
                   </div>
                   <div class="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                    14,882.75€
+                  ₹0
                   </div>
                 </div>
                 <div class="flex justify-between pt-4 border-b">
@@ -159,7 +159,7 @@ include("_navbar.php");
                     Tax
                   </div>
                   <div class="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                    2,976.55€
+                  ₹0
                   </div>
                 </div>
                 <div class="flex justify-between pt-4 border-b">
@@ -167,7 +167,7 @@ include("_navbar.php");
                     Total
                   </div>
                   <div class="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                    17,859.3€
+                  ₹0
                   </div>
                 </div>
               <a href="#">
