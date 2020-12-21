@@ -46,7 +46,7 @@
                     
             <span <?php if ($currentPage === 'contact') {echo 'class="active"';} ?>><a href="contact.php" class="hover:text-white">Contact</a></span>
           </nav>
-          <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-800 lg:items-center lg:justify-center mb-4 md:mb-0">
+          <a href="admin.php" class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-800 lg:items-center lg:justify-center mb-4 md:mb-0">
             
             <span class="ml-3 text-xl xl:block lg:hidden logo">RosH.</span>
           </a>
