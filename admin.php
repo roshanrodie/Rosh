@@ -111,13 +111,13 @@
 							                        <td>
 								                   <?php
 								                       if($row['status']==1){
-									                    echo "<span class='h-8 px-4 py-2 m-1 text-sm text-indigo-100 transition-colors duration-150 bg-green-500 rounded-lg focus:shadow-outline hover:bg-indigo-800'><a href='?type=status&operation=deactive&id=".$row['id']."'>Active</a></span>&nbsp;";
+									                    echo "<span class='h-8 px-4 py-2 m-1 text-sm text-indigo-100 transition-colors duration-150 bg-red-500 rounded-lg focus:shadow-outline hover:bg-red-800'><a href='?type=status&operation=deactive&id=".$row['id']."'>Deactive</a></span>&nbsp;";
 								                       }else{
-									                        echo "<span class='h-8 px-4 py-2 m-1 text-sm text-indigo-100 transition-colors duration-150 bg-red-500 rounded-lg focus:shadow-outline hover:bg-indigo-800'><a href='?type=status&operation=active&id=".$row['id']."'>Deactive</a></span>&nbsp;";
+									                        echo "<span class='h-8 px-4 py-2 m-1 text-sm text-indigo-100 transition-colors duration-150 bg-green-500 rounded-lg focus:shadow-outline hover:bg-green-800'><a href='?type=status&operation=active&id=".$row['id']."'>Active</a></span>&nbsp;";
 								                            }
-								                           echo "<span class='h-8 px-4 py-2 m-1 text-sm text-indigo-100 transition-colors duration-150 bg-yellow-500 rounded-lg focus:shadow-outline hover:bg-indigo-800'><a href='manage_categories.php?id=".$row['id']."'>Edit</a></span>&nbsp;";
+								                           echo "<span class='h-8 px-4 py-2 m-1 text-sm text-indigo-100 transition-colors duration-150 bg-yellow-500 rounded-lg focus:shadow-outline hover:bg-yellow-800'><a href='manage_categories.php?id=".$row['id']."'>Edit</a></span>&nbsp;";
 								
-								                            echo "<span class='h-8 px-4 py-2 m-1 text-sm text-indigo-100 transition-colors duration-150 bg-red-500 rounded-lg focus:shadow-outline hover:bg-indigo-800'><a href='?type=delete&id=".$row['id']."'>Delete</a></span>";
+								                            echo "<span class='h-8 px-4 py-2 m-1 text-sm text-indigo-100 transition-colors duration-150 bg-red-500 rounded-lg focus:shadow-outline hover:bg-red-800'><a href='?type=delete&id=".$row['id']."'>Delete</a></span>";
 								
 								                            ?>
 							                         </td>
