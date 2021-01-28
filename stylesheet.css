@@ -1,5 +1,7 @@
 body{
-  background-image: linear-gradient(to right,#8e9eab, #eef2f3);
+  /*background-image: linear-gradient(to right,#8e9eab, #eef2f3);*/
+    background-image: linear-gradient(to right,#fc00ff, #00dbde);
+    /*background-image: linear-gradient(to right,#8e9eab, #eef2f3);*/
 }
 
 .logo {
